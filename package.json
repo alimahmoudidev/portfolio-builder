@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-builder-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/style/tailwindcss.css -o ./src/style/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alimahmoudidev/portfolio-builder.git"
+  },
+  "author": "alimahmoudi - mohammad mahdi niazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimahmoudidev/portfolio-builder/issues"
+  },
+  "homepage": "https://github.com/alimahmoudidev/portfolio-builder#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

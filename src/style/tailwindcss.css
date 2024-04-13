@@ -1,0 +1,16 @@
+/* Reset CSS */
+@import "tailwindcss/base";
+
+/* Fonts Style */
+@import "./font.css";
+
+/* Custom Style */
+@import "./components/custom-style.css";
+
+/* Custom Component */
+@import "./components/card.css";
+@import "./components/btn.css";
+
+/* Tailwind Class */
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
