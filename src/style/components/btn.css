@@ -1,17 +1,9 @@
 .text-focus{
-    color: #FFB400;
+    @apply text-primary
 }
 
 .btn{
-    background-color: #FFB400;
-    color: #2b2b2b;
-    transition: all;
-    transition-duration: 300ms;
-}
-.btn:hover{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    color: #fff;
-    cursor: pointer;
+    @apply bg-primary text-clr-2b transition-all duration-300 cursor-pointer shadow-box-sm hover:text-white 
 }
 
 .btn-hire-me{
@@ -20,10 +12,6 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    -webkit-transition: all;
-    -moz-transition: all;
-    -ms-transition: all;
-    -o-transition: all;
 }
 .btn-hire-me:hover{
     transform: scale(1.2);
