@@ -1,32 +1,18 @@
 .text-focus{
-    @apply text-primary
+    @apply text-primary;
 }
 
 .btn{
-    @apply bg-primary text-clr-2b transition-all duration-300 cursor-pointer shadow-box-sm hover:text-white 
+    @apply bg-primary text-clr-2b transition-all duration-300 cursor-pointer shadow-box-sm hover:text-white;
 }
 
 .btn-hire-me{
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    @apply rounded-[5px];
 }
 .btn-hire-me:hover{
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    @apply scale-125;
 }
 
 .btn-order-disible{
-    background-color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    @apply bg-white shadow-sm rounded-[30px];
 }
