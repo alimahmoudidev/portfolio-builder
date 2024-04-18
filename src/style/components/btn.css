@@ -1,18 +1,14 @@
-.text-focus{
-    @apply text-primary
-}
-
 .btn{
-    @apply bg-primary text-clr-2b transition-all duration-300 cursor-pointer shadow-box-sm hover:text-white
+    @apply bg-primary text-clr-2b transition-all duration-300 cursor-pointer shadow-box-sm hover:text-white;
 }
 
 .btn-hire-me{
-    @apply rounded-[5px]
+    @apply rounded-[5px];
 }
 .btn-hire-me:hover{
-    @apply scale-125
+    @apply scale-125;
 }
 
 .btn-order-disible{
-    @apply bg-white shadow-box-sm rounded-[30px]
+    @apply bg-white shadow-box-sm rounded-[30px];
 }

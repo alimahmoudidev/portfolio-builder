@@ -22,5 +22,13 @@
 }
 
 .information{
-    @apply flex justify-between items-center py-2;
+    @apply flex justify-between items-center py-2 gap-x-6;
+}
+
+[max]{
+    @apply border rounded-full border-primary overflow-hidden;
+}
+
+.flex-center{
+    @apply flex justify-center items-center;
 }
