@@ -9,6 +9,6 @@
     @apply scale-125;
 }
 
-.btn-order-disible{
+.btn-order-disable{
     @apply bg-white shadow-box-sm rounded-[30px];
 }
