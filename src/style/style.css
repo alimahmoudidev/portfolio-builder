@@ -764,6 +764,10 @@ video {
   }
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
 }
@@ -776,6 +780,14 @@ video {
   inset: 7.5rem;
 }
 
+.-top-2{
+  top: -0.5rem;
+}
+
+.-top-5{
+  top: -1.25rem;
+}
+
 .bottom-11{
   bottom: 2.75rem;
 }
@@ -786,6 +798,10 @@ video {
 
 .bottom-6{
   bottom: 1.5rem;
+}
+
+.left-0{
+  left: 0px;
 }
 
 .left-36{
@@ -802,6 +818,10 @@ video {
 
 .left-96{
   left: 24rem;
+}
+
+.right-0{
+  right: 0px;
 }
 
 .right-16{
@@ -832,6 +852,11 @@ video {
   top: 11rem;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -842,17 +867,37 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-12{
+  margin-bottom: 3rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .mt-4{
   margin-top: 1rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
 }
 
 .flex{
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .size-5{
   width: 1.25rem;
   height: 1.25rem;
+}
+
+.h-0{
+  height: 0px;
 }
 
 .h-16{
@@ -867,8 +912,28 @@ video {
   height: 0.75rem;
 }
 
+.h-96{
+  height: 24rem;
+}
+
+.w-0{
+  width: 0px;
+}
+
 .w-2\/4{
   width: 50%;
+}
+
+.w-24{
+  width: 6rem;
+}
+
+.w-3\/4{
+  width: 75%;
+}
+
+.w-3\/5{
+  width: 60%;
 }
 
 .w-36{
@@ -883,32 +948,41 @@ video {
   width: 10rem;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-3\/5{
-  width: 60%;
+.w-\[85\%\]{
+  width: 85%;
 }
 
 .w-\[90\%\]{
   width: 90%;
 }
 
-.w-\[85\%\]{
-  width: 85%;
+.w-auto{
+  width: auto;
 }
 
-.w-3\/4{
-  width: 75%;
+.w-full{
+  width: 100%;
 }
 
-.w-48{
-  width: 12rem;
+.w-6{
+  width: 1.5rem;
+}
+
+.w-16{
+  width: 4rem;
 }
 
 .max-w-4xl{
   max-width: 56rem;
+}
+
+.rotate-180{
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .flex-col{
@@ -953,6 +1027,19 @@ video {
   border-width: 2px;
 }
 
+.border-x-4{
+  border-left-width: 4px;
+  border-right-width: 4px;
+}
+
+.border-b-8{
+  border-bottom-width: 8px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
 .border-primary{
   --tw-border-opacity: 1;
   border-color: rgb(255 180 0 / var(--tw-border-opacity));
@@ -961,6 +1048,26 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-x-transparent{
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.border-b-clr-2b{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(43 43 43 / var(--tw-border-opacity));
+}
+
+.bg-clr-2b{
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+}
+
+.bg-clr-f0{
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 240 246 / var(--tw-bg-opacity));
 }
 
 .bg-green{
@@ -1022,9 +1129,8 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.text-center{
+  text-align: center;
 }
 
 .font-inter{
@@ -1083,13 +1189,39 @@ video {
   color: rgb(255 180 0 / var(--tw-text-opacity));
 }
 
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300{
+  transition-duration: 300ms;
+}
+
+.hover\:bg-primary:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 180 0 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:block{
+  display: block;
+}
+
 @media (min-width: 1024px){
   .lg\:h-\[1000px\]{
     height: 1000px;
   }
 
-  .lg\:w-24{
-    width: 6rem;
+  .lg\:w-28{
+    width: 7rem;
   }
 
   .lg\:w-52{
