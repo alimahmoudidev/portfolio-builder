@@ -879,6 +879,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-48{
+  margin-top: 12rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -887,8 +891,17 @@ video {
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .hidden{
   display: none;
+}
+
+.size-28{
+  width: 7rem;
+  height: 7rem;
 }
 
 .size-5{
@@ -920,6 +933,10 @@ video {
   width: 0px;
 }
 
+.w-16{
+  width: 4rem;
+}
+
 .w-2\/4{
   width: 50%;
 }
@@ -948,6 +965,10 @@ video {
   width: 10rem;
 }
 
+.w-\[470px\]{
+  width: 470px;
+}
+
 .w-\[85\%\]{
   width: 85%;
 }
@@ -964,14 +985,6 @@ video {
   width: 100%;
 }
 
-.w-6{
-  width: 1.5rem;
-}
-
-.w-16{
-  width: 4rem;
-}
-
 .max-w-4xl{
   max-width: 56rem;
 }
@@ -983,6 +996,14 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -1003,6 +1024,18 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .gap-x-2{
@@ -1090,8 +1123,24 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.fill-none{
+  fill: none;
+}
+
+.fill-primary{
+  fill: #FFB400;
+}
+
+.stroke-primary{
+  stroke: #FFB400;
+}
+
 .p-3{
   padding: 0.75rem;
+}
+
+.p-5{
+  padding: 1.25rem;
 }
 
 .px-1{
@@ -1137,9 +1186,19 @@ video {
   font-family: inter;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg{
@@ -1167,6 +1226,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.capitalize{
+  text-transform: capitalize;
 }
 
 .text-clr-2b{
@@ -1213,6 +1276,28 @@ video {
 
 .group:hover .group-hover\:block{
   display: block;
+}
+
+.group:hover .group-hover\:border{
+  border-width: 1px;
+}
+
+.group:hover .group-hover\:text-primary\/30{
+  color: rgb(255 180 0 / 0.3);
+}
+
+.group:hover .group-hover\:text-primary\/85{
+  color: rgb(255 180 0 / 0.85);
+}
+
+.group:hover .group-hover\:contrast-150{
+  --tw-contrast: contrast(1.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.group:hover .group-hover\:sepia{
+  --tw-sepia: sepia(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media (min-width: 1024px){
