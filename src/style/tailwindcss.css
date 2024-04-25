@@ -7,6 +7,8 @@
 /* Custom Style */
 @import "./components/custom-style.css";
 
+/* Animation */
+
 /* Custom Component */
 @import "./components/card.css";
 @import "./components/btn.css";
@@ -14,3 +16,5 @@
 /* Tailwind Class */
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@import "./components/amination.css";

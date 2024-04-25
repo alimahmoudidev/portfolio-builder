@@ -24,6 +24,9 @@ module.exports = {
       },
       fontFamily : {
         inter : "inter"
+      },
+      animation:{
+        line:"line 3s linear"
       }
     },
   },

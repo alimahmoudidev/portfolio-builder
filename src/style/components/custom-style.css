@@ -1,34 +1,40 @@
-.square{
-    @apply absolute size-4 border-2 border-blue-500 animate-ping;
-} 
-
-.circle{
-    @apply absolute size-4 rounded-full border-2 border-green animate-bounce;
-}
-.circle-online{
-    @apply absolute size-4 rounded-full border-2 border-green animate-pulse;
+/* Color Filter */
+.clr-yellow {
+  filter: brightness(0) saturate(100%) invert(70%) sepia(77%) saturate(2010%)
+    hue-rotate(359deg) brightness(104%) contrast(102%);
 }
 
-.triangle{
-    @apply absolute border-x-8 border-x-transparent border-b-[16px] border-b-primary animate-spin;
+.square {
+  @apply absolute border-2 border-blue-500 size-4 animate-ping;
 }
 
-.icon{
-    @apply p-0.5 rounded-full bg-primary cursor-pointer;
+.circle {
+  @apply absolute border-2 rounded-full size-4 border-green animate-bounce;
+}
+.circle-online {
+  @apply absolute border-2 rounded-full size-4 border-green animate-pulse;
 }
 
-.line{
-    @apply w-40 border border-clr-f0;
+.triangle {
+  @apply absolute border-x-8 border-x-transparent border-b-[16px] border-b-primary animate-spin;
 }
 
-.information{
-    @apply flex justify-between items-center py-2 gap-x-6;
+.icon {
+  @apply p-0.5 rounded-full bg-primary cursor-pointer;
 }
 
-[max]{
-    @apply border rounded-full border-primary overflow-hidden;
+.line {
+  @apply w-40 border border-clr-f0;
 }
 
-.flex-center{
-    @apply flex justify-center items-center;
+.information {
+  @apply flex items-center justify-between py-2 gap-x-6;
+}
+
+[max] {
+  @apply overflow-hidden border rounded-full border-primary;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
 }

@@ -1,0 +1,19 @@
+/* CARD SERVICE */
+.card-service {
+  @apply flex-col gap-6 p-5 transition-all duration-300 bg-white flex-center hover:drop-shadow-lg;
+}
+.card-service .pic {
+  @apply transition-all duration-300 clr-yellow size-16;
+}
+.card-service:hover .pic {
+  @apply size-8;
+}
+.card-service .title {
+  @apply text-lg font-medium text-clr-2b;
+}
+.card-service .details {
+  @apply invisible h-0 text-sm transition-all duration-300 line-clamp-3 text-clr-76 ;
+}
+.card-service:hover .details{
+    @apply h-14 visible
+}
