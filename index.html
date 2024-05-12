@@ -1,612 +1,705 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Builder</title>
-    <link rel="stylesheet" href="./src/style/style.css" />
-  </head>
 
-  <body class="flex justify-between p-3 capitalize font-inter bg-slate-100">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Builder</title>
+  <link rel="stylesheet" href="./src/style/style.css" />
+</head>
 
-    <!-- INFORMATION SIDEBAR -->
+<body class="flex justify-center p-3 capitalize gap-x-6 font-inter bg-slate-100">
 
-    <aside
-      class="info flex flex-col items-center lg:w-52 lg:h-[1380px] bg-white">
-      <div
-        class="flex flex-col items-center justify-center w-40 py-8 info-title">
-        <div class="relative flex items-center justify-center">
-          <img
-            class=""
-            src="src/imgs/Person/Avatar-Profile.jpg"
-            alt="Avatar-Profile"
-          />
-          <span class="circle-online inset-[7.5rem] bg-green"></span>
+  <!-- INFORMATION SIDEBAR -->
+
+  <aside class="flex flex-col items-center bg-white info lg:w-52 lg:h-min">
+    <div class="flex flex-col items-center justify-center w-40 py-8 info-title">
+      <div class="relative flex items-center justify-center">
+        <img class="" src="src/imgs/Person/Avatar-Profile.jpg" alt="Avatar-Profile" />
+        <span class="circle-online inset-[7.5rem] bg-green"></span>
+      </div>
+      <h2 class="py-4 text-lg font-medium text-clr-2b">Rayan Adlardard</h2>
+      <p class="text-sm text-clr-76">Font-end Developer</p>
+      <div class="flex mt-4 gap-x-3">
+        <div class="icon">
+          <a href="#">
+            <img src="src/imgs/Icons/Icons-facebook.svg" alt="Facebook" />
+          </a>
         </div>
-        <h2 class="py-4 text-lg font-medium text-clr-2b">Rayan Adlardard</h2>
-        <p class="text-sm text-clr-76">Font-end Developer</p>
-        <div class="flex mt-4 gap-x-3">
-          <div class="icon">
-            <a href="#">
-              <img src="src/imgs/Icons/Icons-facebook.svg" alt="Facebook" />
-            </a>
-          </div>
-          <div class="icon">
-            <a href="#">
-              <img src="src/imgs/Icons/Icons-instagram.svg" alt="Instagram" />
-            </a>
-          </div>
-          <div class="icon">
-            <a href="#">
-              <img src="src/imgs/Icons/Icons-twitter.svg" alt="Twitter" />
-            </a>
-          </div>
-          <div class="icon">
-            <a href="#">
-              <img src="src/imgs/Icons/Icons-linkedin.svg" alt="linkedin" />
-            </a>
-          </div>
-          <div class="icon">
-            <a href="#">
-              <img src="src/imgs/Icons/Icons-Youtube.svg" alt="Youtube" />
-            </a>
-          </div>
-          <div class="icon">
-            <a href="#">
-              <img src="src/imgs/Icons/Icons-dribbble.svg" alt="Dribbble" />
-            </a>
-          </div>
+        <div class="icon">
+          <a href="#">
+            <img src="src/imgs/Icons/Icons-instagram.svg" alt="Instagram" />
+          </a>
+        </div>
+        <div class="icon">
+          <a href="#">
+            <img src="src/imgs/Icons/Icons-twitter.svg" alt="Twitter" />
+          </a>
+        </div>
+        <div class="icon">
+          <a href="#">
+            <img src="src/imgs/Icons/Icons-linkedin.svg" alt="linkedin" />
+          </a>
+        </div>
+        <div class="icon">
+          <a href="#">
+            <img src="src/imgs/Icons/Icons-Youtube.svg" alt="Youtube" />
+          </a>
+        </div>
+        <div class="icon">
+          <a href="#">
+            <img src="src/imgs/Icons/Icons-dribbble.svg" alt="Dribbble" />
+          </a>
         </div>
       </div>
-      <span class="line"></span>
-      <div class="py-4 text-sm info-address">
-        <div class="information">
-          <h3 class="px-1 text-clr-2b bg-primary">Age:</h3>
-          <h3>24</h3>
+    </div>
+    <span class="line"></span>
+    <div class="py-4 text-sm info-address">
+      <div class="information">
+        <h3 class="px-1 text-clr-2b bg-primary">Age:</h3>
+        <h3>24</h3>
+      </div>
+      <div class="information">
+        <h3 class="px-1 text-clr-2b bg-primary">Residence:</h3>
+        <h3>BD</h3>
+      </div>
+      <div class="information">
+        <h3 class="px-1 text-clr-2b bg-primary">Freelance:</h3>
+        <h3 class="text-green">Available</h3>
+      </div>
+      <div class="information">
+        <h3 class="px-1 text-clr-2b bg-primary">Address:</h3>
+        <h3>Bangladesh</h3>
+      </div>
+    </div>
+    <span class="line"></span>
+    <div class="w-40 py-4 info-languages">
+      <h3 class="py-4 text-lg font-medium text-clr-2b">Languages</h3>
+      <div>
+        <div class="flex justify-between text-clr-76">
+          <h4>Bangla</h4>
+          <h4>100%</h4>
         </div>
-        <div class="information">
-          <h3 class="px-1 text-clr-2b bg-primary">Residence:</h3>
-          <h3>BD</h3>
-        </div>
-        <div class="information">
-          <h3 class="px-1 text-clr-2b bg-primary">Freelance:</h3>
-          <h3 class="text-green">Available</h3>
-        </div>
-        <div class="information">
-          <h3 class="px-1 text-clr-2b bg-primary">Address:</h3>
-          <h3>Bangladesh</h3>
+        <div class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary">
+          <div class="w-full h-2 border border-white rounded-full bg-primary"></div>
         </div>
       </div>
-      <span class="line"></span>
-      <div class="w-40 py-4 info-languages">
-        <h3 class="py-4 text-lg font-medium text-clr-2b">Languages</h3>
+      <div class="py-4">
+        <div class="flex justify-between text-clr-76">
+          <h4>English</h4>
+          <h4>80%</h4>
+        </div>
+        <div class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary">
+          <div class="w-4/5 h-2 border border-white rounded-full bg-primary"></div>
+        </div>
+      </div>
+      <div>
+        <div class="flex justify-between text-clr-76">
+          <h4>Spanish</h4>
+          <h4>60%</h4>
+        </div>
+        <div class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary">
+          <div class="w-3/5 h-2 border border-white rounded-full bg-primary"></div>
+        </div>
+      </div>
+    </div>
+    <span class="line"></span>
+    <div class="w-40 py-4 info-skills">
+      <h3 class="py-4 text-lg font-medium text-clr-2b">Skills</h3>
+      <div>
+        <div class="flex justify-between text-clr-76">
+          <h4>Html</h4>
+          <h4>90%</h4>
+        </div>
+        <div class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary">
+          <div class="w-[90%] h-2 rounded-full bg-primary border border-white"></div>
+        </div>
+        <div class="py-4">
+          <div class="flex justify-between text-clr-76">
+            <h4>Css</h4>
+            <h4>85%</h4>
+          </div>
+          <div class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary">
+            <div class="w-[85%] h-2 rounded-full bg-primary border border-white"></div>
+          </div>
+        </div>
         <div>
           <div class="flex justify-between text-clr-76">
-            <h4>Bangla</h4>
-            <h4>100%</h4>
+            <h4>Js</h4>
+            <h4>80%</h4>
           </div>
-          <div
-            class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary"
-          >
-            <div
-              class="w-full h-2 border border-white rounded-full bg-primary"
-            ></div>
+          <div class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary">
+            <div class="w-4/5 h-2 border border-white rounded-full bg-primary"></div>
           </div>
         </div>
         <div class="py-4">
           <div class="flex justify-between text-clr-76">
-            <h4>English</h4>
-            <h4>80%</h4>
+            <h4>PHP</h4>
+            <h4>75%</h4>
           </div>
-          <div
-            class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary"
-          >
-            <div
-              class="w-4/5 h-2 border border-white rounded-full bg-primary"
-            ></div>
+          <div class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary">
+            <div class="w-3/4 h-2 border border-white rounded-full bg-primary"></div>
           </div>
         </div>
         <div>
           <div class="flex justify-between text-clr-76">
-            <h4>Spanish</h4>
-            <h4>60%</h4>
+            <h4>WordPress</h4>
+            <h4>85%</h4>
           </div>
-          <div
-            class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary"
-          >
-            <div
-              class="w-3/5 h-2 border border-white rounded-full bg-primary"
-            ></div>
+          <div class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary">
+            <div class="w-[85%] h-2 rounded-full bg-primary border border-white"></div>
           </div>
         </div>
       </div>
+    </div>
+    <div>
       <span class="line"></span>
-      <div class="w-40 py-4 info-skills">
-        <h3 class="py-4 text-lg font-medium text-clr-2b">Skills</h3>
-        <div>
-          <div class="flex justify-between text-clr-76">
-            <h4>Html</h4>
-            <h4>90%</h4>
-          </div>
-          <div
-            class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary"
-          >
-            <div
-              class="w-[90%] h-2 rounded-full bg-primary border border-white"
-            ></div>
-          </div>
-          <div class="py-4">
-            <div class="flex justify-between text-clr-76">
-              <h4>Css</h4>
-              <h4>85%</h4>
-            </div>
-            <div
-              class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary"
-            >
-              <div
-                class="w-[85%] h-2 rounded-full bg-primary border border-white"
-              ></div>
-            </div>
-          </div>
-          <div>
-            <div class="flex justify-between text-clr-76">
-              <h4>Js</h4>
-              <h4>80%</h4>
-            </div>
-            <div
-              class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary"
-            >
-              <div
-                class="w-4/5 h-2 border border-white rounded-full bg-primary"
-              ></div>
-            </div>
-          </div>
-          <div class="py-4">
-            <div class="flex justify-between text-clr-76">
-              <h4>PHP</h4>
-              <h4>75%</h4>
-            </div>
-            <div
-              class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary"
-            >
-              <div
-                class="w-3/4 h-2 border border-white rounded-full bg-primary"
-              ></div>
-            </div>
-          </div>
-          <div>
-            <div class="flex justify-between text-clr-76">
-              <h4>WordPress</h4>
-              <h4>85%</h4>
-            </div>
-            <div
-              class="flex items-center justify-start w-full h-3 border-2 rounded-full border-primary"
-            >
-              <div
-                class="w-[85%] h-2 rounded-full bg-primary border border-white"
-              ></div>
-            </div>
-          </div>
+      <div class="w-40 py-4 info-extra">
+        <h3 class="py-4 text-lg font-medium text-clr-2b">Extra Skills</h3>
+        <div class="flex items-center py-2 text-xs gap-x-2 text-clr-76">
+          <img src="src/imgs/Icons/Icons.svg" alt="Icons" />
+          <h4>Bootstrap, Materialize</h4>
+        </div>
+        <div class="flex items-center py-2 text-xs gap-x-2 text-clr-76">
+          <img src="src/imgs/Icons/Icons.svg" alt="Icons" />
+          <h4>Stylus, Sass, Less</h4>
+        </div>
+        <div class="flex items-center py-2 text-xs gap-x-2 text-clr-76">
+          <img src="src/imgs/Icons/Icons.svg" alt="Icons" />
+          <h4>Gulp, Webpack, Grunt</h4>
+        </div>
+        <div class="flex items-center py-2 text-xs gap-x-2 text-clr-76">
+          <img src="src/imgs/Icons/Icons.svg" alt="Icons" />
+          <h4>GIT Knowledge</h4>
         </div>
       </div>
-      <div>
-        <span class="line"></span>
-        <div class="w-40 py-4 info-extra">
-          <h3 class="py-4 text-lg font-medium text-clr-2b">Extra Skills</h3>
-          <div class="flex items-center py-2 text-xs gap-x-2 text-clr-76">
-            <img src="src/imgs/Icons/Icons.svg" alt="Icons" />
-            <h4>Bootstrap, Materialize</h4>
-          </div>
-          <div class="flex items-center py-2 text-xs gap-x-2 text-clr-76">
-            <img src="src/imgs/Icons/Icons.svg" alt="Icons" />
-            <h4>Stylus, Sass, Less</h4>
-          </div>
-          <div class="flex items-center py-2 text-xs gap-x-2 text-clr-76">
-            <img src="src/imgs/Icons/Icons.svg" alt="Icons" />
-            <h4>Gulp, Webpack, Grunt</h4>
-          </div>
-          <div class="flex items-center py-2 text-xs gap-x-2 text-clr-76">
-            <img src="src/imgs/Icons/Icons.svg" alt="Icons" />
-            <h4>GIT Knowledge</h4>
-          </div>
+    </div>
+
+    <span class="line"></span>
+    <div class="w-40 px-5 py-3 my-4 text-sm font-semibold btn flex-center gap-x-2">
+      <p>Download CV</p>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-5">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+      </svg>
+    </div>
+  </aside>
+
+  <!-- MAIN SECTION -->
+
+  <main class="container max-w-4xl">
+
+    <!-- BANER SECTION  -->
+
+    <section class="relative flex justify-between bg-white header px-11">
+      <div class="flex flex-col justify-center w-2/4">
+        <h1 class="text-4xl font-bold text-clr-2b">
+          I'm Rayan Adlrdard
+          <span class="text-primary">Front-end</span> Developer
+        </h1>
+        <p class="my-10 text-clr-76">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
+          volutpat feugiat placerat lobortis. Natoque rutrum semper sed
+          suspendisse nunc lectus.
+        </p>
+        <div class="h-16 flex-center btn w-36">
+          <p>HIRE ME</p>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+          </svg>
         </div>
       </div>
-
-      <span class="line"></span>
-      <div
-        class="w-40 px-5 py-3 my-4 text-sm font-semibold btn flex-center gap-x-2"
-      >
-        <p>Download CV</p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="size-5"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-          />
-        </svg>
+      <span class="square right-36 top-20"> </span>
+      <span class="circle inset-7"> </span>
+      <span class="triangle right-16 top-36"> </span>
+      <span class="square left-36 top-16"> </span>
+      <span class="circle left-96 top-44"> </span>
+      <span class="triangle left-48 bottom-11"> </span>
+      <span class="square right-6 bottom-6"> </span>
+      <span class="circle bottom-16 left-64"> </span>
+      <div class="flex items-center justify-center w-2/4">
+        <img src="src/imgs/Person/Avatar.png" alt="Person-Avatar" />
       </div>
-    </aside>
+    </section>
 
-    <!-- MAIN SECTION -->
+    <!-- SERVICES SECTION -->
 
-    <main class="container max-w-4xl">
+    <section class="mt-48">
+      <h2 class="text-3xl font-bold text-center text-clr-2b">My Services</h2>
+      <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+      </p>
+      <div class="grid grid-cols-3 grid-rows-2 gap-4 mt-10">
+        <!-- Card -->
+        <div class="card-service group">
+          <img src="./src/imgs/icons/coding.svg" class="pic" alt="coding" />
+          <h4 class="title">Web Development</h4>
+          <p class="details">Blog, e-commerce</p>
+        </div>
 
-      <!-- BANER SECTION  -->
+        <!-- Card -->
+        <div class="card-service group">
+          <img src="src/imgs/Icons/illustration.svg" class="pic" alt="">
+          <h4 class="title">Ui/Ux Design</h4>
+          <p class="details">Mobile app, Website Design</p>
+        </div>
 
-      <section class="relative flex justify-between bg-white header px-11">
-        <div class="flex flex-col justify-center w-2/4">
-          <h1 class="text-4xl font-bold text-clr-2b">
-            I'm Rayan Adlrdard
-            <span class="text-primary">Front-end</span> Developer
-          </h1>
-          <p class="my-10 text-clr-76">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-            volutpat feugiat placerat lobortis. Natoque rutrum semper sed
-            suspendisse nunc lectus.
+        <!-- Card -->
+        <div class="card-service group">
+          <img src="src/imgs/Icons/Microphone.svg" class="pic" alt="">
+          <h4 class="title">Sound Design</h4>
+          <p class="details">Voice Over, Beat Making</p>
+        </div>
+
+        <!-- Card -->
+        <div class="card-service group">
+          <img src="src/imgs/Icons/game-development.svg" class="pic" alt="">
+          <h4 class="title">Game Design</h4>
+          <p class="details">Character Design, Props & Objects</p>
+        </div>
+
+        <!-- Card -->
+        <div class="card-service group">
+          <img src="src/imgs/Icons/Photographer.svg" class="pic" alt="">
+          <h4 class="title">Photography</h4>
+          <p class="details">Portrait, Product Photography</p>
+        </div>
+
+        <!-- Card -->
+        <div class="card-service group">
+          <h4 class="text-lg font-medium text-clr-2b">Advertising</h4>
+          <p class="text-sm text-center text-clr-76">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+            nulla diam in ac dictum a urna viverra morbi.
           </p>
-          <div class="h-16 flex-center btn w-36">
-            <p>HIRE ME</p>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="size-5"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-              />
+          <div class="gap-3 p-5 bg-white cursor-pointer flex-center group">
+            <p class="text-xs font-bold text-primary group-hover:text-primary/85">
+              ORDER NOW
+            </p>
+            <img src="src/imgs/Icons/Arrow-right.svg" alt="Arrow-right" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICE SECTION -->
+
+    <section class="mt-48">
+      <h2 class="text-3xl font-bold text-center text-clr-2b">price plans</h2>
+      <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+      </p>
+      <div class="flex gap-4 mt-10">
+        <div class="relative flex flex-col items-center w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
+          <span class="absolute w-full text-center transition-all duration-300 -top-10 bg-primary group-hover:top-0">Most Economical</span>
+          <h4 class="py-2 text-2xl font-semibold text-clr-2b">silver</h4>
+          <div class="flex items-end py-4 gap-x-2">
+            <h4 class="text-3xl font-bold text-clr-2b">$0.00</h4>
+            <p class="text-sm font-normal text-clr-2b">/hour</p>
+          </div>
+          <p class="pb-2 text-sm font-normal text-center text-clr-76">
+            For most businesses that want to optimize web queries
+          </p>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1475)">
+                <path
+                  d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1475">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
             </svg>
+            <p class="text-clr-2b">ui desing</p>
           </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1475)">
+                <path
+                  d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1475">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-2b">web development</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">logo desing</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">wordpress integration</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">5 websites</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">unlimited user</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">20 GB bandwith</p>
+          </div>
+          <button class="px-6 py-2 mt-2 transition-all duration-300 btn-order-disable bor group-hover:bg-primary">
+            ORDER NOW
+          </button>
         </div>
-        <span class="square right-36 top-20"> </span>
-        <span class="circle inset-7"> </span>
-        <span class="triangle right-16 top-36"> </span>
-        <span class="square left-36 top-16"> </span>
-        <span class="circle left-96 top-44"> </span>
-        <span class="triangle left-48 bottom-11"> </span>
-        <span class="square right-6 bottom-6"> </span>
-        <span class="circle bottom-16 left-64"> </span>
-        <div class="flex items-center justify-center w-2/4">
-          <img src="src/imgs/Person/Avatar.png" alt="Person-Avatar" />
-        </div>
-      </section>
-
-      <!-- SERVICES SECTION -->
-
-      <section class="mt-48">
-        <h2 class="text-3xl font-bold text-center text-clr-2b">My Services</h2>
-        <p
-          class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center"
-        >
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. lorem ipsum
-        </p>
-        <div class="grid grid-cols-3 grid-rows-2 gap-4 mt-10">
-          <!-- Card -->
-          <div class="card-service group">
-            <img src="./src/imgs/icons/coding.svg" class="pic" alt="coding"/>
-            <h4 class="title">Web Development</h4>
-            <p class="details">Blog, e-commerce</p>
+        <div class="relative flex flex-col items-center w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
+          <span class="absolute top-0 w-full text-center bg-primary">Most Popular</span>
+          <h4 class="py-2 text-2xl font-semibold text-clr-2b">Gold</h4>
+          <div class="flex items-end py-4 gap-x-2">
+            <h4 class="text-3xl font-bold text-clr-2b">$50.00</h4>
+            <p class="text-sm font-normal text-clr-2b">/hour</p>
           </div>
-
-          <!-- Card -->
-          <div class="card-service group">
-            <img src="src/imgs/Icons/illustration.svg" class="pic" alt="">
-            <h4 class="title">Ui/Ux Design</h4>
-            <p class="details">Mobile app, Website Design</p>
-          </div>
-
-          <!-- Card -->
-          <div class="card-service group">
-            <img src="src/imgs/Icons/Microphone.svg" class="pic" alt="">
-            <h4 class="title">Sound Design</h4>
-            <p class="details">Voice Over, Beat Making</p>
-          </div>
-
-          <!-- Card -->
-          <div class="card-service group">
-            <img src="src/imgs/Icons/game-development.svg" class="pic" alt="">
-            <h4 class="title">Game Design</h4>
-            <p class="details">Character Design, Props & Objects</p>
-          </div>
-
-          <!-- Card -->
-          <div class="card-service group">
-            <img src="src/imgs/Icons/Photographer.svg" class="pic" alt="">
-            <h4 class="title">Photography</h4>
-            <p class="details">Portrait, Product Photography</p>
-          </div>
-
-          <!-- Card -->
-          <div class="card-service group">
-            <h4 class="text-lg font-medium text-clr-2b">Advertising</h4>
-            <p class="text-sm text-center text-clr-76">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-              nulla diam in ac dictum a urna viverra morbi.
-            </p>
-            <div class="gap-3 p-5 bg-white cursor-pointer flex-center group">
-              <p
-                class="text-xs font-bold text-primary group-hover:text-primary/85"
-              >
-                ORDER NOW
-              </p>
-              <img src="src/imgs/Icons/Arrow-right.svg" alt="Arrow-right" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- PRICE SECTION -->
-
-      <section class="mt-48">
-        <h2 class="text-3xl font-bold text-center text-clr-2b">price plans</h2>
-        <p
-          class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center"
-        >
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. lorem ipsum
-        </p>
-        <div>
-          <div class="flex flex-col items-center w-1/3 h-auto p-2 bg-white">
-            <h4 class="py-2 text-2xl font-semibold text-clr-2b">silver</h4>
-            <div class="flex items-end py-4 gap-x-2">
-              <h4 class="text-3xl font-bold text-clr-2b">$0.00</h4>
-              <p class="text-sm font-normal text-clr-2b">/hour</p>
-            </div>
-            <p class="pb-2 text-sm font-normal text-center text-clr-76">
-              For most businesses that want to optimize web queries
-            </p>
-            <div class="flex items-center w-full p-4 gap-x-4">
-              <svg
-                class="size-6 fill-primary"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">ui desing</p>
-            </div>
-            <div class="flex items-center w-full p-4 gap-x-4">
-              <svg
-                class="size-6 fill-primary"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">web development</p>
-            </div>
-            <div class="flex items-center w-full p-4 gap-x-4">
-              <svg
-                class="size-6 fill-clr-76"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">logo desing</p>
-            </div>
-            <div class="flex items-center w-full p-4 gap-x-4">
-              <svg
-                class="size-6 fill-clr-76"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">wordpress integration</p>
-            </div>
-            <div class="flex items-center w-full p-4 gap-x-4">
-              <svg
-                class="size-6 fill-clr-76"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">5 websites</p>
-            </div>
-            <div class="flex items-center w-full p-4 gap-x-4">
-              <svg
-                class="size-6 fill-clr-76"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">unlimited user</p>
-            </div>
-            <div class="flex items-center w-full p-4 gap-x-4">
-              <svg
-                class="size-6 fill-clr-76"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">20 GB bandwith</p>
-            </div>
-            <div></div>
-          </div>
-        </div>
-      </section>
-
-      
-
-    </main>
-
-    <!-- MENU SIDEBAR -->
-
-    <aside
-      class="flex flex-col justify-start items-center lg:w-28 lg:h-[1000px] bg-white">
-      <img
-        class="mt-6 mb-12 cursor-pointer"
-        src="src/imgs/Icons/Darkmode.svg"
-        alt="Darkmode"
-      />
-      <div class="flex flex-col items-center justify-between w-24 mt-10 h-96">
-        <div
-          class="relative p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group"
-        >
-          <p
-            class="absolute left-0 right-0 hidden w-auto px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block"
-          >
-            Home
+          <p class="pb-2 text-sm font-normal text-center text-clr-76">
+            For most businesses that want to optimize web queries
           </p>
-          <span
-            class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"
-          ></span>
-          <img class="" src="src/imgs/Icons/Home.svg" alt="Home" />
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1475)">
+                <path
+                  d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1475">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-2b">ui desing</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1475)">
+                <path
+                  d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1475">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-2b">web development</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">logo desing</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">wordpress integration</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">5 websites</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">unlimited user</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">20 GB bandwith</p>
+          </div>
+          <button class="px-6 py-2 mt-2 transition-all duration-300 btn-order-disable bor group-hover:bg-primary">
+            ORDER NOW
+          </button>
         </div>
-        <div
-          class="relative flex flex-col items-center justify-between p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group"
-        >
-          <p
-            class="absolute hidden w-16 px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block"
-          >
-            Services
+        <div class="relative flex flex-col items-center w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
+          <span class="absolute w-full text-center transition-all duration-300 -top-10 bg-primary group-hover:top-0">Most Special</span>
+          <h4 class="py-2 text-2xl font-semibold text-clr-2b">silver</h4>
+          <div class="flex items-end py-4 gap-x-2">
+            <h4 class="text-3xl font-bold text-clr-2b">$0.00</h4>
+            <p class="text-sm font-normal text-clr-2b">/hour</p>
+          </div>
+          <p class="pb-2 text-sm font-normal text-center text-clr-76">
+            For most businesses that want to optimize web queries
           </p>
-          <span
-            class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"
-          ></span>
-          <img src="src/imgs/Icons/Services.svg" alt="Services" />
-        </div>
-        <div
-          class="relative p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group"
-        >
-          <p
-            class="absolute left-0 right-0 hidden w-auto px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block"
-          >
-            CV
-          </p>
-          <span
-            class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"
-          ></span>
-          <img src="src/imgs/Icons/cv.svg" alt="CV" />
-        </div>
-        <div
-          class="relative flex flex-col items-center justify-between p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group"
-        >
-          <p
-            class="absolute hidden w-16 px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block"
-          >
-            Portfolio
-          </p>
-          <span
-            class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"
-          ></span>
-          <img src="src/imgs/Icons/Portfolio.svg" alt="Portfolio" />
-        </div>
-        <div
-          class="relative p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group"
-        >
-          <p
-            class="absolute left-0 right-0 hidden w-auto px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block"
-          >
-            Blog
-          </p>
-          <span
-            class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"
-          ></span>
-          <img src="src/imgs/Icons/Blog.svg" alt="Blog" />
-        </div>
-        <div
-          class="relative flex flex-col items-center justify-between p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group"
-        >
-          <p
-            class="absolute hidden w-16 px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block"
-          >
-            Contact
-          </p>
-          <span
-            class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"
-          ></span>
-          <img src="src/imgs/Icons/Contact.svg" alt="Contact" />
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1475)">
+                <path
+                  d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1475">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-2b">ui desing</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1475)">
+                <path
+                  d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1475">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-2b">web development</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">logo desing</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">wordpress integration</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">5 websites</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">unlimited user</p>
+          </div>
+          <div class="flex items-center w-full p-4 gap-x-4">
+            <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1478)">
+                <path
+                  d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_1478">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="text-clr-76">20 GB bandwith</p>
+          </div>
+          <button class="px-6 py-2 mt-2 transition-all duration-300 btn-order-disable bor group-hover:bg-primary">
+            ORDER NOW
+          </button>
         </div>
       </div>
-    </aside>
-    <script src="./src/js/script.js"></script>
-    <script src="./src/js/app.js"></script>
-  </body>
+    </section>
+
+
+
+  </main>
+
+  <!-- MENU SIDEBAR -->
+
+  <aside class="flex flex-col justify-start items-center lg:w-28 lg:h-[1000px] bg-white">
+    <img class="mt-6 mb-12 cursor-pointer" src="src/imgs/Icons/Darkmode.svg" alt="Darkmode" />
+    <div class="flex flex-col items-center justify-between w-24 mt-10 h-96">
+      <div
+        class="relative p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group">
+        <p class="absolute left-0 right-0 hidden w-auto px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block">
+          Home
+        </p>
+        <span
+          class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"></span>
+        <img class="" src="src/imgs/Icons/Home.svg" alt="Home" />
+      </div>
+      <div
+        class="relative flex flex-col items-center justify-between p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group">
+        <p class="absolute hidden w-16 px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block">
+          Services
+        </p>
+        <span
+          class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"></span>
+        <img src="src/imgs/Icons/Services.svg" alt="Services" />
+      </div>
+      <div
+        class="relative p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group">
+        <p class="absolute left-0 right-0 hidden w-auto px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block">
+          CV
+        </p>
+        <span
+          class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"></span>
+        <img src="src/imgs/Icons/cv.svg" alt="CV" />
+      </div>
+      <div
+        class="relative flex flex-col items-center justify-between p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group">
+        <p class="absolute hidden w-16 px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block">
+          Portfolio
+        </p>
+        <span
+          class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"></span>
+        <img src="src/imgs/Icons/Portfolio.svg" alt="Portfolio" />
+      </div>
+      <div
+        class="relative p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group">
+        <p class="absolute left-0 right-0 hidden w-auto px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block">
+          Blog
+        </p>
+        <span
+          class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"></span>
+        <img src="src/imgs/Icons/Blog.svg" alt="Blog" />
+      </div>
+      <div
+        class="relative flex flex-col items-center justify-between p-3 text-center transition duration-300 rounded-full cursor-pointer hover:bg-primary bg-clr-f0 group">
+        <p class="absolute hidden w-16 px-1 text-xs text-white -top-5 bg-clr-2b group-hover:block">
+          Contact
+        </p>
+        <span
+          class="absolute left-0 right-0 hidden w-0 h-0 mx-auto rotate-180 border-b-8 border-solid border-x-4 border-x-transparent border-b-clr-2b -top-2 group-hover:block"></span>
+        <img src="src/imgs/Icons/Contact.svg" alt="Contact" />
+      </div>
+    </div>
+  </aside>
+  <script src="./src/js/script.js"></script>
+  <script src="./src/js/app.js"></script>
+</body>
+
 </html>
