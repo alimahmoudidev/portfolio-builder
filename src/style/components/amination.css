@@ -1,17 +1,32 @@
-
 @keyframes line {
-    0%{
+    0% {
         transform-origin: left;
         transform: scaleX(0);
     }
-    100%{
+
+    100% {
         transform-origin: left;
         transform: scaleX(1);
     }
 }
 
-@keyframes load {
-    0%  {box-shadow: 15px 0,-25px 0}
-    50% {box-shadow: 15px 0,-15px 0}
-    100%{box-shadow: 25px 0,-15px 0}
+@keyframes l4-1 {
+
+    0%,
+    40% {
+        transform: rotate(0)
+    }
+
+    80%,
+    100% {
+        transform: rotate(.5turn)
+    }
+}
+
+@keyframes l4-2 {
+
+    80%,
+    100% {
+        box-shadow: 16px 0 #FFB400
+    }
 }

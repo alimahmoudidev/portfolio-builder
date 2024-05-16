@@ -19,15 +19,16 @@ module.exports = {
           "ff": "#ffffff"
         },
       },
-      boxShadow:{
+      boxShadow: {
         "box-sm": "0 4px 4px 0 rgba(0, 0, 0, 0.25)"
       },
-      fontFamily : {
-        inter : "inter"
+      fontFamily: {
+        inter: "inter"
       },
-      animation:{
-        line:"line 3s linear",
-        load:"load 1s infinite linear alternate"
+      animation: {
+        line: "line 3s linear",
+        load1: "load1 1s infinite alternate",
+        load2: "load 5s infinite alternate"
       }
     },
   },
