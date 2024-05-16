@@ -26,7 +26,8 @@ module.exports = {
         inter : "inter"
       },
       animation:{
-        line:"line 3s linear"
+        line:"line 3s linear",
+        load:"load 1s infinite linear alternate"
       }
     },
   },

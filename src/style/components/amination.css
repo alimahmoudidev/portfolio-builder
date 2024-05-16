@@ -9,3 +9,9 @@
         transform: scaleX(1);
     }
 }
+
+@keyframes load {
+    0%  {box-shadow: 15px 0,-25px 0}
+    50% {box-shadow: 15px 0,-15px 0}
+    100%{box-shadow: 25px 0,-15px 0}
+}
