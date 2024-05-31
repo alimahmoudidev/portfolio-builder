@@ -29,6 +29,9 @@ module.exports = {
         line: "line 3s linear",
         load1: "load1 1s infinite alternate",
         load2: "load 5s infinite alternate"
+      },
+      transitionDuration: {
+        '1500': '1500ms'
       }
     },
   },

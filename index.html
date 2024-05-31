@@ -195,31 +195,31 @@
 
       <section class="relative flex justify-between bg-white header px-11">
         <div class="flex flex-col justify-center w-2/4">
-          <h1 class="text-4xl font-bold text-clr-2b">
+          <h1 class="text-2xl md:text-4xl font-bold text-clr-2b">
             I'm Rayan Adlrdard
             <span class="text-primary">Front-end</span> Developer
           </h1>
-          <p class="my-10 text-clr-76">
+          <p class="my-10 text-sm md:text-bases text-clr-76">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
             volutpat feugiat placerat lobortis. Natoque rutrum semper sed
             suspendisse nunc lectus.
           </p>
-          <div class="h-16 flex-center btn w-36">
-            <p>HIRE ME</p>
+          <div class="h-8 md:h-16 flex justify-center items-center btn w-28 md:w-36">
+            <p class="text-xs md:text-base">HIRE ME</p>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="size-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
             </svg>
           </div>
         </div>
-        <span class="square right-36 top-20"> </span>
-        <span class="circle inset-7"> </span>
-        <span class="triangle right-16 top-36"> </span>
-        <span class="square left-36 top-16"> </span>
-        <span class="circle left-96 top-44"> </span>
-        <span class="triangle left-48 bottom-11"> </span>
-        <span class="square right-6 bottom-6"> </span>
-        <span class="circle bottom-16 left-64"> </span>
+        <span class="hidden md:inline square right-24 top-16"> </span>
+        <span class="hidden md:inline circle inset-7"> </span>
+        <span class="hidden md:inline triangle right-16 top-36"> </span>
+        <span class="hidden md:inline square left-36 top-8"> </span>
+        <span class="hidden md:inline circle left-96 top-44"> </span>
+        <span class="hidden md:inline triangle left-48 bottom-11"> </span>
+        <span class="hidden md:inline square right-6 bottom-6"> </span>
+        <span class="hidden md:inline circle bottom-16 left-64"> </span>
         <div class="flex items-center justify-center w-2/4">
           <img src="src/imgs/Person/Avatar.png" alt="Person-Avatar" />
         </div>
@@ -231,11 +231,11 @@
         <h2 class="text-3xl font-bold text-center text-clr-2b">
           My Services
         </h2>
-        <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        <p class="md:md:w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
-        <div class="grid grid-cols-3 grid-rows-2 gap-4 mt-10">
+        <div class="grid grid-cols-2 md:grid-cols-3 grid-rows-3 md:grid-rows-2 gap-4 mt-10">
           <!-- Card -->
           <div class="card-service group">
             <img src="./src/imgs/icons/coding.svg" class="pic" alt="coding" />
@@ -294,13 +294,13 @@
         <h2 class="text-3xl font-bold text-center text-clr-2b">
           price plans
         </h2>
-        <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        <p class="md:w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
-        <div class="flex gap-4 mt-10">
+        <div class="flex flex-col sm:flex-row gap-4 mt-10">
           <div
-            class="relative flex flex-col items-center w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
+            class="relative flex flex-col items-center w-full sm:w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
             <span
               class="absolute w-full text-center transition-all duration-300 -top-10 bg-primary group-hover:top-0">Most
               Economical</span>
@@ -312,110 +312,112 @@
             <p class="pb-2 text-sm font-normal text-center text-clr-76">
               For most businesses that want to optimize web queries
             </p>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">ui desing</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">web development</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">logo desing</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">wordpress integration</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">5 websites</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">unlimited user</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">20 GB bandwith</p>
+            <div class="grid grid-cols-3 grid-rows-3">
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">ui desing</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">web development</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1478)">
+                    <path
+                      d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1478">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-76">logo desing</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1478)">
+                    <path
+                      d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1478">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-76">wordpress integration</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1478)">
+                    <path
+                      d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1478">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-76">5 websites</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1478)">
+                    <path
+                      d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1478">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-76">unlimited user</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1478)">
+                    <path
+                      d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1478">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-76">20 GB bandwith</p>
+              </div>
             </div>
             <button class="px-6 py-2 mt-2 transition-all duration-300 btn-order-disable bor group-hover:bg-primary">
               ORDER NOW
             </button>
           </div>
           <div
-            class="relative flex flex-col items-center w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
+            class="relative flex flex-col items-center w-full sm:w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
             <span class="absolute top-0 w-full text-center bg-primary">Most Popular</span>
             <h4 class="py-2 text-2xl font-semibold text-clr-2b">Gold</h4>
             <div class="flex items-end py-4 gap-x-2">
@@ -425,110 +427,112 @@
             <p class="pb-2 text-sm font-normal text-center text-clr-76">
               For most businesses that want to optimize web queries
             </p>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">ui desing</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">web development</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">Logo Desing</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">Wordpress Integration</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">5 websites</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">unlimited user</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1478)">
-                  <path
-                    d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1478">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-76">20 GB bandwith</p>
+            <div class="grid grid-cols-3 grid-rows-3">
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">ui desing</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">web development</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">Logo Desing</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">Wordpress Integration</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1478)">
+                    <path
+                      d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1478">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-76">5 websites</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1478)">
+                    <path
+                      d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1478">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-76">unlimited user</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-clr-76" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1478)">
+                    <path
+                      d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1478">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-76">20 GB bandwith</p>
+              </div>
             </div>
             <button class="px-6 py-2 mt-2 transition-all duration-300 btn-order-disable bor group-hover:bg-primary">
               ORDER NOW
             </button>
           </div>
           <div
-            class="relative flex flex-col items-center w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
+            class="relative flex flex-col items-center w-full sm:w-1/3 h-auto px-2 py-10 overflow-hidden bg-white cursor-pointer group">
             <span
               class="absolute w-full text-center transition-all duration-300 -top-10 bg-primary group-hover:top-0">Most
               Special</span>
@@ -540,103 +544,105 @@
             <p class="pb-2 text-sm font-normal text-center text-clr-76">
               For most businesses that want to optimize web queries
             </p>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">ui desing</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">web development</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">logo desing</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">wordpress integration</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">5 websites</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">unlimited user</p>
-            </div>
-            <div class="flex items-center w-full py-2 gap-x-4">
-              <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_0_1475)">
-                  <path
-                    d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_0_1475">
-                    <rect width="24" height="24" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <p class="text-clr-2b">20 GB bandwith</p>
+            <div class="grid grid-cols-3 grid-rows-3">
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">ui desing</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">web development</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">logo desing</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">wordpress integration</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">5 websites</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">unlimited user</p>
+              </div>
+              <div class="flex items-center w-full py-2 gap-x-4">
+                <svg class="size-6 fill-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_0_1475)">
+                    <path
+                      d="M9.99999 15.172L19.192 5.979L20.607 7.393L9.99999 18L3.63599 11.636L5.04999 10.222L9.99999 15.172Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_1475">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="text-clr-2b">20 GB bandwith</p>
+              </div>
             </div>
             <button class="px-6 py-2 mt-2 transition-all duration-300 btn-order-disable bor group-hover:bg-primary">
               ORDER NOW
@@ -651,12 +657,12 @@
         <h2 class="text-3xl font-bold text-center text-clr-2b">
           Recommendations
         </h2>
-        <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        <p class="md:w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
-        <div class="flex items-center justify-between gap-4 mt-10">
-          <div class="flex flex-col w-1/3 p-6 bg-white h-min gap-y-4">
+        <div class="flex items-center justify-between h-min gap-4 mt-10">
+          <div class="flex flex-col w-1/3 p-6 bg-white h-full gap-y-4">
             <div class="flex gap-x-2">
               <svg class="size-4 fill-primary" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -679,21 +685,22 @@
                   d="M9 13.2448L12.9107 12.2343L14.5446 17.3684L9 13.2448ZM18 6.60873H11.1161L9 0L6.88393 6.60873H0L5.57143 10.7051L3.45535 17.3138L9.02679 13.2175L12.4554 10.7051L18 6.60873Z" />
               </svg>
             </div>
-            <h4 class="text-lg font-medium text-clr-2b">Great Quality!</h4>
-            <p class="text-sm text-clr-76">
+            <h4 class="transition-all duration-1500 md:text-lg font-medium text-clr-2b">Great Quality!</h4>
+            <p class="text-xs transition-all duration-1500 md:text-sm text-clr-76">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna viverra morbi. Morbi donec
               amet....
             </p>
             <div class="flex items-center gap-x-2">
-              <img src="src/imgs/Person/Person-1.png" alt="Person" />
+              <img class="size-10 transition-all duration-1500 md:size-16" src="src/imgs/Person/Person-1.png"
+                alt="Person" />
               <div>
-                <h4 class="text-lg font-medium text-clr-2b">James Gouse</h4>
-                <p class="text-sm text-clr-76">Graphic Designer</p>
+                <h4 class="text-sm transition-all duration-1500 md:text-lg font-medium text-clr-2b">James Gouse</h4>
+                <p class="text-xs transition-all duration-1500 md:text-sm text-clr-76">Graphic Designer</p>
               </div>
             </div>
           </div>
-          <div class="flex flex-col w-1/3 p-6 bg-white h-min gap-y-4">
+          <div class="flex flex-col w-1/3 p-6 bg-white h-full gap-y-4">
             <div class="flex gap-x-2">
               <svg class="size-4 fill-primary" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -716,21 +723,22 @@
                   d="M9 13.2448L12.9107 12.2343L14.5446 17.3684L9 13.2448ZM18 6.60873H11.1161L9 0L6.88393 6.60873H0L5.57143 10.7051L3.45535 17.3138L9.02679 13.2175L12.4554 10.7051L18 6.60873Z" />
               </svg>
             </div>
-            <h4 class="text-lg font-medium text-clr-2b">Amazing work!</h4>
-            <p class="text-sm text-clr-76">
+            <h4 class="transition-all duration-1500 md:text-lg font-medium text-clr-2b">Amazing work!</h4>
+            <p class="text-xs transition-all duration-1500 md:text-sm text-clr-76">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna viverra morbi. Morbi donec
               amet....
             </p>
             <div class="flex items-center gap-x-2">
-              <img src="src/imgs/Person/Person-2.png" alt="Person" />
+              <img class="size-10 transition-all duration-1500 md:size-16" src="src/imgs/Person/Person-2.png"
+                alt="Person" />
               <div>
-                <h4 class="text-lg font-medium text-clr-2b">Tiana Philips</h4>
-                <p class="text-sm text-clr-76">Photographer</p>
+                <h4 class="text-sm transition-all duration-1500 md:text-lg font-medium text-clr-2b">Tiana Philips</h4>
+                <p class="text-xs transition-all duration-1500 md:text-sm text-clr-76">Photographer</p>
               </div>
             </div>
           </div>
-          <div class="flex flex-col w-1/3 p-6 bg-white h-min gap-y-4">
+          <div class="flex flex-col w-1/3 p-6 bg-white h-full gap-y-4">
             <div class="flex gap-x-2">
               <svg class="size-4 fill-primary" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -753,19 +761,20 @@
                   d="M9 13.2448L12.9107 12.2343L14.5446 17.3684L9 13.2448ZM18 6.60873H11.1161L9 0L6.88393 6.60873H0L5.57143 10.7051L3.45535 17.3138L9.02679 13.2175L12.4554 10.7051L18 6.60873Z" />
               </svg>
             </div>
-            <h4 class="text-lg font-medium text-clr-2b">Great Quality!</h4>
-            <p class="text-sm text-clr-76">
+            <h4 class="transition-all duration-1500 md:text-lg font-medium text-clr-2b">Great Quality!</h4>
+            <p class="text-xs transition-all duration-1500 md:text-sm text-clr-76">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna viverra morbi. Morbi donec
               amet....
             </p>
             <div class="flex items-center gap-x-2">
-              <img src="src/imgs/Person/Person-3.png" alt="Person" />
+              <img class="size-10 transition-all duration-1500 md:size-16" src="src/imgs/Person/Person-3.png"
+                alt="Person" />
               <div>
-                <h4 class="text-lg font-medium text-clr-2b">
+                <h4 class="text-xs transition-all duration-1500 font-medium text-clr-2b">
                   Talan Westervelt
                 </h4>
-                <p class="text-sm text-clr-76">Business man</p>
+                <p class="text-xs transition-all duration-1500 md:text-sm text-clr-76">Business man</p>
               </div>
             </div>
           </div>
@@ -782,51 +791,51 @@
 
       <section class="mt-16">
         <h2 class="text-3xl font-bold text-center text-clr-2b">Education</h2>
-        <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        <p class="md:w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
         <div class="p-4 mt-10 bg-white">
           <div class="flex w-full p-4">
-            <div class="w-1/3">
-              <h4 class="mb-4 text-lg font-medium text-clr-2b">University of Toronto</h4>
-              <div class="flex items-center gap-x-4">
+            <div class="w-1/3 flex flex-col justify-center items-center gap-x-4">
+              <h4 class="mb-4 text-base md:text-lg font-medium text-clr-2b">University of Toronto</h4>
+              <div class="flex flex-col md:flex-row items-center h-full gap-4">
                 <p class="text-sm font-normal text-clr-2b">Student</p>
-                <p class="p-1 text-xs font-normal text-white bg-primary">Jan 1016 - Dec 2021</p>
+                <p class="w-max p-1 text-xs font-normal text-white bg-primary">Jan 2016 - Dec 2021</p>
               </div>
             </div>
-            <div class="w-2/3">
-              <h4 class="mb-4 text-lg font-medium text-clr-2b">Certificate of web training</h4>
+            <div class="w-2/3 flex flex-col justify-center items-center gap-x-4">
+              <h4 class="mb-4 text-base md:text-lg font-medium text-clr-2b">Certificate of web training</h4>
               <p class="text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
                 Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
             </div>
           </div>
           <div class="flex w-full p-4 border-y">
-            <div class="w-1/3">
-              <h4 class="mb-4 text-lg font-medium text-clr-2b">Programming Course</h4>
-              <div class="flex items-center gap-x-4">
+            <div class="w-1/3 flex flex-col justify-center items-center gap-x-4">
+              <h4 class="mb-4 text-base md:text-lg font-medium text-clr-2b">Programming Course</h4>
+              <div class="flex flex-col md:flex-row items-center h-full gap-4">
                 <p class="text-sm font-normal text-clr-2b">Student</p>
-                <p class="p-1 text-xs font-normal text-white bg-primary">Jan 1016 - Dec 2021</p>
+                <p class="w-max p-1 text-xs font-normal text-white bg-primary">Jan 2016 - Dec 2021</p>
               </div>
             </div>
-            <div class="w-2/3">
-              <h4 class="mb-4 text-lg font-medium text-clr-2b">Certificate of web training</h4>
+            <div class="w-2/3 flex flex-col justify-center items-center gap-x-4">
+              <h4 class="mb-4 text-base md:text-lg font-medium text-clr-2b">Certificate of web training</h4>
               <p class="text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
                 Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
             </div>
           </div>
           <div class="flex w-full p-4">
-            <div class="w-1/3">
-              <h4 class="mb-4 text-lg font-medium text-clr-2b">Web developer courses</h4>
-              <div class="flex items-center gap-x-4">
+            <div class="w-1/3 flex flex-col justify-center items-center gap-x-4">
+              <h4 class="mb-4 text-sm md:text-lg font-medium text-clr-2b">Web developer courses</h4>
+              <div class="flex flex-col md:flex-row items-center h-full gap-4">
                 <p class="text-sm font-normal text-clr-2b">Student</p>
-                <p class="p-1 text-xs font-normal text-white bg-primary">Jan 1016 - Dec 2021</p>
+                <p class="p-1 text-xs font-normal text-white bg-primary">Jan 2016 - Dec 2021</p>
               </div>
             </div>
-            <div class="w-2/3">
-              <h4 class="mb-4 text-lg font-medium text-clr-2b">Certificate of web training</h4>
+            <div class="w-2/3 flex flex-col justify-center items-center gap-x-4">
+              <h4 class="mb-4 text-base md:text-lg font-medium text-clr-2b">Certificate of web training</h4>
               <p class="text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
                 Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
@@ -839,20 +848,20 @@
 
       <section class="mt-24">
         <h2 class="text-3xl font-bold text-center text-clr-2b">Work History</h2>
-        <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        <p class="md:w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
         <div class="p-4 mt-10 bg-white">
           <div class="flex w-full p-4">
-            <div class="w-1/3">
+            <div class="w-1/3 flex flex-col justify-center items-center gap-x-4">
               <h4 class="mb-4 text-lg font-medium text-clr-2b">Lead Web Designer</h4>
-              <div class="flex items-center gap-x-4">
+              <div class="flex flex-col md:flex-row items-center h-full gap-4">
                 <p class="text-sm font-normal text-clr-2b">Student</p>
-                <p class="p-1 text-xs font-normal text-white bg-primary">Jan 1016 - Dec 2021</p>
+                <p class="w-max p-1 text-xs font-normal text-white bg-primary">Jan 2016 - Dec 2021</p>
               </div>
             </div>
-            <div class="w-2/3">
+            <div class="w-2/3 flex flex-col justify-center items-center gap-x-4">
               <h4 class="mb-4 text-lg font-medium text-clr-2b">Certificate of web training</h4>
               <p class="text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
@@ -860,14 +869,14 @@
             </div>
           </div>
           <div class="flex w-full p-4 border-y">
-            <div class="w-1/3">
+            <div class="w-1/3 flex flex-col justify-center items-center gap-x-4">
               <h4 class="mb-4 text-lg font-medium text-clr-2b">Junior Web Designer</h4>
-              <div class="flex items-center gap-x-4">
+              <div class="flex flex-col md:flex-row items-center h-full gap-4">
                 <p class="text-sm font-normal text-clr-2b">Student</p>
-                <p class="p-1 text-xs font-normal text-white bg-primary">Jan 1016 - Dec 2021</p>
+                <p class="w-max p-1 text-xs font-normal text-white bg-primary">Jan 2016 - Dec 2021</p>
               </div>
             </div>
-            <div class="w-2/3">
+            <div class="w-2/3 flex flex-col justify-center items-center gap-x-4">
               <h4 class="mb-4 text-lg font-medium text-clr-2b">Certificate of web training</h4>
               <p class="text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
@@ -875,14 +884,14 @@
             </div>
           </div>
           <div class="flex w-full p-4">
-            <div class="w-1/3">
+            <div class="w-1/3 flex flex-col justify-center items-center gap-x-4">
               <h4 class="mb-4 text-lg font-medium text-clr-2b">Senior Web Designer</h4>
-              <div class="flex items-center gap-x-4">
+              <div class="flex flex-col md:flex-row items-center h-full gap-4">
                 <p class="text-sm font-normal text-clr-2b">Student</p>
-                <p class="p-1 text-xs font-normal text-white bg-primary">Jan 1016 - Dec 2021</p>
+                <p class="w-max p-1 text-xs font-normal text-white bg-primary">Jan 2016 - Dec 2021</p>
               </div>
             </div>
-            <div class="w-2/3">
+            <div class="w-2/3 flex flex-col justify-center items-center gap-x-4">
               <h4 class="mb-4 text-lg font-medium text-clr-2b">Certificate of web training</h4>
               <p class="text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
@@ -896,7 +905,7 @@
 
       <section class="mt-24">
         <h2 class="text-3xl font-bold text-center text-clr-2b">Portfolio</h2>
-        <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        <p class="md:w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
@@ -972,7 +981,7 @@
 
       <section class="mt-24">
         <h2 class="text-3xl font-bold text-center text-clr-2b">Blog</h2>
-        <p class="w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
+        <p class="md:w-[470px] mt-4 mx-auto text-clr-76 font-medium text-base text-center">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
@@ -981,7 +990,7 @@
             <img src="src/imgs/Portfolio/Portfolio-1.png" alt=""
               class="mb-4 transition-all duration-300 group-hover:scale-95 xl:group-hover:scale-105">
             <div class="flex-center flex-col gap-2 p-2 bg-white">
-              <h4 class="text-lg font-medium text-clr-2b">How to make web tempates</h4>
+              <h4 class="text-sm font-bold lg:text-lg md:font-medium text-clr-2b">How to make web tempates</h4>
               <p class="w-5/6 text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vitae nulla diam in ac dictum a urna </p>
               <div class="flex items-baseline justify-start gap-x-4 ">
@@ -996,7 +1005,7 @@
             <img src="src/imgs/Portfolio/Portfolio-2.png" alt=""
               class="mb-4 transition-all duration-300 group-hover:scale-95 xl:group-hover:scale-105">
             <div class="flex-center flex-col gap-2 p-2 bg-white">
-              <h4 class="text-lg font-medium text-clr-2b">make Business card</h4>
+              <h4 class="text-sm font-bold lg:text-lg md:font-medium text-clr-2b">make Business card</h4>
               <p class="w-5/6 text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vitae nulla diam in ac dictum a urna </p>
               <div class="flex items-baseline justify-start gap-x-4 ">
@@ -1011,7 +1020,7 @@
             <img src="src/imgs/Portfolio/Portfolio-3.png" alt=""
               class="mb-4 transition-all duration-300 group-hover:scale-95 xl:group-hover:scale-105">
             <div class="flex-center flex-col gap-2 p-2 bg-white">
-              <h4 class="text-lg font-medium text-clr-2b">How to make Flyer Design</h4>
+              <h4 class="text-sm font-bold lg:text-lg md:font-medium text-clr-2b">How to make Flyer Design</h4>
               <p class="w-5/6 text-sm font-normal text-clr-76">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vitae nulla diam in ac dictum a urna </p>
               <div class="flex items-baseline justify-start gap-x-4 ">
@@ -1168,7 +1177,7 @@
 
       <section class="mt-24">
         <div>
-          <img src="src/imgs/Map/Map.png" alt="Map">
+          <img class="w-full" src="src/imgs/Map/Map.png" alt="Map">
         </div>
       </section>
 
